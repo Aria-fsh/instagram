@@ -1,0 +1,51 @@
+@extends('layouts.app')
+
+@section('content')
+<div class="container">
+    <div class="row">
+        <div class="col-3 p-5 pr-5">
+            <img src="{{ $user->profile->profileImage() }}" class="rounded-circle w-100">
+        </div>
+        <div class="col-9 pt-5">
+            <div class="d-flex justify-content-between align align-items-baseline">
+                <div class="d-flex align-items-center pb-4">
+                    <div class="h4">{{ $user->username }}</div>
+
+                    <follow-button user-id="{{ $user->id }}" follows="{{ $follows }}"></follow-button>
+                </div>
+
+                @can('update', $user->profile)
+                    <a href="/p/create"> Add new post</a>
+                @endcan
+
+            </div>
+
+           @can('update', $user->profile)
+                <a href="/profile/{{ $user->id }}/edit">Edit Profile</a>
+            @endcan
+
+            <div class="d-flex">
+                <div class="pr-5"><strong>{{ $postCount }}</strong> Posts</div>
+                <div class="pr-5"><strong>{{ $followerCount }}</strong> Followers</div>
+                <div class="pr-5"><strong>{{ $followingCount }}</strong> Following</div>
+
+            </div>
+            <div class="pt-2 font-weight-bold"><strong>{{ $user->profile->title }}</strong></div>
+            <div class="pt-2">{{$user->profile->description}}</div>
+            <div><a href="#">{{ $user->profile->url }}</a> </div>
+        </div>
+    </div>
+
+    <div class="row">
+        @foreach($user->posts as $post)
+
+        <div class="col-4 pb-4 pt-5">
+            <a href="/p/{{ $post->id }}">
+                <img src="/storage/{{ $post->image }}" class="w-100">
+            </a>
+        </div>
+        @endforeach
+        </div>
+    </div>
+</div>
+@endsection
