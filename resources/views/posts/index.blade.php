@@ -50,11 +50,11 @@
            <div class="col-12 d-flex justify-content-center">
                {{ $posts->links() }}
            </div>
+       </div>
            <div class="row col-4 ">
                <button class="btn btn-primary">
-                   <a href="/profile/{{ $post->user->id }}" style="color: #e0d1d1">Profile</a>
+                   <a href="/profile/{{ auth()->user()->id }}" style="color: #e0d1d1">Profile</a>
                </button>
            </div>
-       </div>
 
 @endsection

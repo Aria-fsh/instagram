@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33d114e2-8249-4f6c-981c-129be9538426" name="Default Changelist" comment="" />
+    <list default="true" id="33d114e2-8249-4f6c-981c-129be9538426" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,18 +147,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="SQLite" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../First-repository" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/posts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.vagrant" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\Laravel\train\resources\views\profiles" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs\Laravel\train\resources\views\posts" />
       <recent name="D:\xampp\htdocs\Laravel\train\resources\views\profiles" />
       <recent name="D:\xampp\htdocs\Laravel\train\resources\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\Laravel\train\resources\views\profiles" />
     </key>
   </component>
   <component name="RunManager">
@@ -204,7 +207,7 @@
       <workItem from="1580540998847" duration="14000" />
       <workItem from="1580541036758" duration="688000" />
       <workItem from="1580542569839" duration="597000" />
-      <workItem from="1580556922698" duration="1242000" />
+      <workItem from="1580556922698" duration="4777000" />
     </task>
     <servers />
   </component>
@@ -264,9 +267,9 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2536" y="240" width="672" height="677" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580404776279" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580540842721">
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580728423873">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580540842721" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580728423873" />
   </component>
 </project>
